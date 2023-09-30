@@ -23,10 +23,7 @@ public class Calculator {
             } else {
                 result = firstNum / secondNum;
             }
-        } else {
-            System.out.println("/=");
         }
-
         System.out.print("Result: " + result);
     }
 }
