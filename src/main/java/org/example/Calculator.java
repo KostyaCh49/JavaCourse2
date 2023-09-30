@@ -18,11 +18,7 @@ public class Calculator {
         } else if (operator == '*') {
             result = firstNum * secondNum;
         } else if (operator == '/') {
-            if (secondNum == 0) {
-                System.out.println("Can't divide by zero!");
-            } else {
-                result = firstNum / secondNum;
-            }
+            result = firstNum / secondNum;
         }
         System.out.print("Result: " + result);
     }
